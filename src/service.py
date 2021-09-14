@@ -36,6 +36,7 @@ class Descriptor(object):
 
     def calc(self, mol):
         v = rd.GetHashedMorganFingerprint(mol, radius=self.radius, nBits=self.nbits)
+        print(v)
         return clip_sparse(v, self.nbits)
 
 

@@ -17,14 +17,10 @@ NBITS = 2048
 DTYPE = np.int8
 
 
-def to_np(vect, nbits):
-    arr = numpy.zeros((nbits, ), 'i')
-    return ConvertToNumpyArray(vect, arr)
-
 def clip_sparse(vect, nbits):
     l = [0]*nbits
     for i,v in vect.GetNonzeroElements().items():
-        l[i] = v
+        l[i] = v if v < 127 else 127
     return l
 
 

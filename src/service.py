@@ -24,7 +24,7 @@ def to_np(vect, nbits):
 def clip_sparse(vect, nbits):
     l = [0]*nbits
     for i,v in vect.GetNonzeroElements().items():
-        l[i] = v if v > 255 else 255
+        l[i] = v
     return l
 
 

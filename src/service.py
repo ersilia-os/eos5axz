@@ -1,4 +1,5 @@
 import random
+import numpy as np
 import json
 import collections
 from rdkit import Chem

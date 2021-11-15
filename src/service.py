@@ -14,13 +14,13 @@ from bentoml.types import JsonSerializable
 
 RADIUS = 3
 NBITS = 2048
-DTYPE = np.int8
+DTYPE = np.uint8
 
 
 def clip_sparse(vect, nbits):
     l = [0]*nbits
     for i,v in vect.GetNonzeroElements().items():
-        l[i] = v if v < 127 else 127
+        l[i] = v if v < 255 else 255
     return l
 
 
@@ -32,7 +32,6 @@ class Descriptor(object):
 
     def calc(self, mol):
         v = rd.GetHashedMorganFingerprint(mol, radius=self.radius, nBits=self.nbits)
-        print(v)
         return clip_sparse(v, self.nbits)
 
 

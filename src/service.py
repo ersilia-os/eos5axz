@@ -45,6 +45,6 @@ class Service(BentoService):
         output = []
         for inp in input:
             mol = Chem.MolFromSmiles(inp["input"])
-            fp = np.array(desc.calc(mol), dtype=np.int8)
+            fp = np.array(desc.calc(mol), dtype=np.uint8)
             output += [{"fp": fp}]
         return [output]

@@ -23,6 +23,11 @@ The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one o
 * [Source Code](https://github.com/rdkit/rdkit)
 * Ersilia contributor: [miquelduranfrigola](https://github.com/miquelduranfrigola)
 
+## Ersilia model URLs
+* [GitHub](https://github.com/ersilia-os/eos5axz)
+* [AWS S3](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip)
+* [DockerHub](https://hub.docker.com/r/ersiliaos/eos5axz) (AMD64, ARM64)
+
 ## Citation
 
 If you use this model, please cite the [original authors](https://www.rdkit.org/docs/RDKit_Book.html) of the model and the [Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff).

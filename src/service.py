@@ -104,12 +104,7 @@ class Artifact(BentoServiceArtifact):
         self._model = None
         self._extension = ".pkl"
 
-    def _copy_checkpoints(self, base_path):
-        src_folder = self._model.checkpoints_dir
-        dst_folder = os.path.join(base_path, "checkpoints")
-        if os.path.exists(dst_folder):
-            os.rmdir(dst_folder)
-        shutil.copytree(src_folder, dst_folder)
+
 
     def _copy_framework(self, base_path):
         src_folder = self._model.framework_dir
@@ -128,9 +123,6 @@ class Artifact(BentoServiceArtifact):
     def load(self, path):
         model_file_path = self._model_file_path(path)
         model = pickle.load(open(model_file_path, "rb"))
-        model.set_checkpoints_dir(
-            os.path.join(os.path.dirname(model_file_path), "checkpoints")
-        )
         model.set_framework_dir(
             os.path.join(os.path.dirname(model_file_path), "framework")
         )
@@ -140,7 +132,6 @@ class Artifact(BentoServiceArtifact):
         return self._model
 
     def save(self, dst):
-        self._copy_checkpoints(dst)
         self._copy_framework(dst)
         pickle.dump(self._model, open(self._model_file_path(dst), "wb"))
 

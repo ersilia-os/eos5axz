@@ -4,22 +4,22 @@
     "Status": "Ready",
     "Title": "Morgan counts fingerprints",
     "Description": "The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one of the most widely used molecular representations. They are circular representations (from an atom, search the atoms around with a radius n) and can have thousands of features. This implementation uses the RDKit package and is done with radius 3 and 2048 dimensions.\n",
-    "Mode": "Pretrained",
+    "Mode": "Retrained",
     "Input": [
         "Compound"
     ],
     "Input Shape": "Single",
     "Task": [
-        "Representation"
+        "Classification"
     ],
     "Output": [
-        "Descriptor"
+        "Score"
     ],
     "Output Type": [
-        "Integer"
+        "Float"
     ],
-    "Output Shape": "List",
-    "Interpretation": "Vector representation of a molecule",
+    "Output Shape": "Single",
+    "Interpretation": "Classification score",
     "Tag": [
         "Fingerprint",
         "Descriptor"

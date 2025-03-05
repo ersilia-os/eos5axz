@@ -1,0 +1,13 @@
+name: Send Slack message
+on:
+  issues:
+    types: [opened] #Check if we still want this
+
+jobs:
+  post-to-slack:
+    uses: ersilia-os/ersilia-model-workflows/.github/workflows/post-to-slack.yml@main
+    with:
+      repo_name: ${{ github.event.repository.name }}
+    secrets:
+      SLACK_CHANNEL_TESTER: ${{ secrets.SLACK_CHANNEL_TESTER }}
+      SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}

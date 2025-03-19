@@ -48,6 +48,9 @@ _Total columns: 2048_
 - **Docker Architecture:** AMD64, ARM64
 - **[S3 Storage](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip)**
 
+## Resource Consumption:
+- **Model Size:** 1
+- **Environment Size:** 496
 
 
 ## References:

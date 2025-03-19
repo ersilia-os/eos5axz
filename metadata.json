@@ -44,5 +44,7 @@
     "Deployment": [
         "Local"
     ],
-    "Docker Pack Method": "FastAPI"
+    "Docker Pack Method": "FastAPI",
+    "Model Size": 1.0,
+    "Environment Size": 496.0
 }

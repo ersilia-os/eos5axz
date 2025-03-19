@@ -1,15 +1,28 @@
-name: Upload model
+name: Test and upload model
 
 on:
-  workflow_run:
-    workflows: ["Call test model source"]
-    types:
-      - completed
+  push:
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
+  # Test model source
+  test-model-source:
+    if: github.repository != 'ersilia-os/eos-template'
+    uses: ersilia-os/ersilia-model-workflows/.github/workflows/test-model-source.yml@main
+    with:
+      branch: "main"
+      repo_name: ${{ github.event.repository.name }}
+    secrets:
+      AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
+      AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
   # Upload Model to S3
   upload-model-to-s3:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    needs: test-model-source
+    if: ${{ needs.test-model-source.result == 'success' }}}}
     uses: ersilia-os/ersilia-model-workflows/.github/workflows/upload-model-to-s3.yml@main
     with:
       repo_name: ${{ github.event.repository.name }}

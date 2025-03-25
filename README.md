@@ -20,7 +20,6 @@ The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one o
 - **Input Dimension:** `1`
 
 ### Output
-- **Output:** ``
 - **Output Dimension:** `2048`
 - **Output Consistency:** `Fixed`
 - **Interpretation:** Vector representation of a molecule
@@ -80,10 +79,11 @@ ersilia serve eos5axz
 ersilia example -n 3 -f my_input.csv
 # run the model
 ersilia run -i my_input.csv -o my_output.csv
+# close the model
 ersilia close
 ```
 
 ## About Ersilia
-The [Ersilia Open Source Initiative](https://ersilia.io) is a non-profit organization fueling sustainable research in the Global South.
-Please [cite the Ersilia Model Hub](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff) if you've found this model useful. Always [let us know](https://github.com/ersilia-os/ersilia/issues) you experience any issues while trying to run it.
-If feel[help us](https://www.ersilia.io/donate) achieve our mission!
+The [Ersilia Open Source Initiative](https://ersilia.io) is a tech non-profit organization fueling sustainable research in the Global South.
+Please [cite](https://github.com/ersilia-os/ersilia/blob/master/CITATION.cff) the Ersilia Model Hub if you've found this model to be useful. Always [let us know](https://github.com/ersilia-os/ersilia/issues) if you experience any issues while trying to run it.
+If you want to contribute to our mission, consider [donating](https://www.ersilia.io/donate) to Ersilia!

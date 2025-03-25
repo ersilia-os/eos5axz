@@ -1,50 +1,51 @@
 {
-    "Identifier": "eos5axz",
-    "Slug": "morgan-counts",
-    "Status": "Ready",
-    "Title": "Morgan counts fingerprints",
-    "Description": "The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one of the most widely used molecular representations. They are circular representations (from an atom, search the atoms around with a radius n) and can have thousands of features. This implementation uses the RDKit package and is done with radius 3 and 2048 dimensions.\n",
-    "Source": "Local",
-    "Source Type": "External",
-    "Input": [
-        "Compound"
-    ],
-    "Input Shape": "Single",
-    "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
-    "Output": [
-        "Descriptor"
-    ],
-    "Output Dimension": 2048,
-    "Output Consistency": "Fixed",
-    "Interpretation": "Vector representation of a molecule",
-    "Tag": [
-        "Fingerprint",
-        "Descriptor"
-    ],
-    "Publication": "https://pubs.acs.org/doi/10.1021/ci100050t",
-    "Publication Type": "Peer reviewed",
-    "Publication Year": 2010,
-    "Source Code": "https://github.com/rdkit/rdkit",
-    "License": "BSD-3.0",
-    "Contributor": "miquelduranfrigola",
-    "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5axz",
-    "Docker Architecture": [
-        "AMD64",
-        "ARM64"
-    ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip",
-    "Deployment": [
-        "Local"
-    ],
-    "Docker Pack Method": "FastAPI",
-    "Model Size": 1.0,
-    "Environment Size": 496.0
+  "Identifier": "eos5axz",
+  "Slug": "morgan-counts",
+  "Status": "Ready",
+  "Title": "Morgan counts fingerprints",
+  "Description": "The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one of the most widely used molecular representations. They are circular representations (from an atom, search the atoms around with a radius n) and can have thousands of features. This implementation uses the RDKit package and is done with radius 3 and 2048 dimensions.\n",
+  "Source": "Local",
+  "Source Type": "External",
+  "Input": [
+    "Compound"
+  ],
+  "Input Shape": "Single",
+  "Input Dimension": 1,
+  "Task": "Representation",
+  "Subtask": "Featurization",
+  "Biomedical Area": [
+    "Any"
+  ],
+  "Target Organism": [
+    "Not Applicable"
+  ],
+  "Output": [
+    "Descriptor"
+  ],
+  "Output Dimension": 2048,
+  "Output Consistency": "Fixed",
+  "Interpretation": "Vector representation of a molecule",
+  "Tag": [
+    "Fingerprint",
+    "Descriptor"
+  ],
+  "Publication": "https://pubs.acs.org/doi/10.1021/ci100050t",
+  "Publication Type": "Peer reviewed",
+  "Publication Year": 2010,
+  "Source Code": "https://github.com/rdkit/rdkit",
+  "License": "BSD-3.0",
+  "Contributor": "miquelduranfrigola",
+  "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5axz",
+  "Docker Architecture": [
+    "AMD64",
+    "ARM64"
+  ],
+  "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip",
+  "Deployment": [
+    "Local"
+  ],
+  "Docker Pack Method": "FastAPI",
+  "Model Size": 1.0,
+  "Environment Size": 496.0,
+  "Incorporation Date": "9/9/2021"
 }

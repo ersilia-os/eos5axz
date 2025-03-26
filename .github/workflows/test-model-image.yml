@@ -5,6 +5,7 @@ on:
     workflows: ["Test and upload model"]
     types:
       - completed
+  workflow_dispatch:
 
 jobs:
   test-image:

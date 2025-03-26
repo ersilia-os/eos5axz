@@ -1,0 +1,2 @@
+Environment size (MB): 496.0
+Directory size (MB): 1.0

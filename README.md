@@ -52,9 +52,9 @@ _10 of 2048 columns are shown_
 - **Image Size (Mb):** `414.28`
 
 **Computational Performance (seconds):**
-- One input: `29.37`
-- Ten inputs: `19.07`
-- Hundred inputs: `19.65`
+- One input: `29.97`
+- Ten inputs: `19.7`
+- Hundred inputs: `20.01`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit](https://github.com/rdkit/rdkit)

@@ -2,6 +2,7 @@
 
 The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one of the most widely used molecular representations. They are circular representations (from an atom, search the atoms around with a radius n) and can have thousands of features. This implementation uses the RDKit package and is done with radius 3 and 2048 dimensions.
 
+This model was incorporated on 2021-09-09.
 
 ## Information
 ### Identifiers

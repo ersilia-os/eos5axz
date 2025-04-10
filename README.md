@@ -28,16 +28,16 @@ This model was incorporated on 2021-09-09.
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| dim_0000 | integer |  | Morgan count fingeprint dimension 0 with radius 3 and 2048 bits |
-| dim_0001 | integer |  | Morgan count fingeprint dimension 1 with radius 3 and 2048 bits |
-| dim_0002 | integer |  | Morgan count fingeprint dimension 2 with radius 3 and 2048 bits |
-| dim_0003 | integer |  | Morgan count fingeprint dimension 3 with radius 3 and 2048 bits |
-| dim_0004 | integer |  | Morgan count fingeprint dimension 4 with radius 3 and 2048 bits |
-| dim_0005 | integer |  | Morgan count fingeprint dimension 5 with radius 3 and 2048 bits |
-| dim_0006 | integer |  | Morgan count fingeprint dimension 6 with radius 3 and 2048 bits |
-| dim_0007 | integer |  | Morgan count fingeprint dimension 7 with radius 3 and 2048 bits |
-| dim_0008 | integer |  | Morgan count fingeprint dimension 8 with radius 3 and 2048 bits |
-| dim_0009 | integer |  | Morgan count fingeprint dimension 9 with radius 3 and 2048 bits |
+| dim_0000 | integer | high | Morgan count fingeprint dimension 0 with radius 3 and 2048 bits |
+| dim_0001 | integer | high | Morgan count fingeprint dimension 1 with radius 3 and 2048 bits |
+| dim_0002 | integer | high | Morgan count fingeprint dimension 2 with radius 3 and 2048 bits |
+| dim_0003 | integer | high | Morgan count fingeprint dimension 3 with radius 3 and 2048 bits |
+| dim_0004 | integer | high | Morgan count fingeprint dimension 4 with radius 3 and 2048 bits |
+| dim_0005 | integer | high | Morgan count fingeprint dimension 5 with radius 3 and 2048 bits |
+| dim_0006 | integer | high | Morgan count fingeprint dimension 6 with radius 3 and 2048 bits |
+| dim_0007 | integer | high | Morgan count fingeprint dimension 7 with radius 3 and 2048 bits |
+| dim_0008 | integer | high | Morgan count fingeprint dimension 8 with radius 3 and 2048 bits |
+| dim_0009 | integer | high | Morgan count fingeprint dimension 9 with radius 3 and 2048 bits |
 
 _10 of 2048 columns are shown_
 ### Source and Deployment

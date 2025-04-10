@@ -4,21 +4,18 @@
     "Status": "Ready",
     "Title": "Morgan counts fingerprints",
     "Description": "The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one of the most widely used molecular representations. They are circular representations (from an atom, search the atoms around with a radius n) and can have thousands of features. This implementation uses the RDKit package and is done with radius 3 and 2048 dimensions.\n",
+    "Deployment": [
+        "Local"
+    ],
     "Source": "Local",
     "Source Type": "External",
+    "Task": "Representation",
+    "Subtask": "Featurization",
     "Input": [
         "Compound"
     ],
-    "Input Shape": "Single",
     "Input Dimension": 1,
-    "Task": "Representation",
-    "Subtask": "Featurization",
-    "Biomedical Area": [
-        "Any"
-    ],
-    "Target Organism": [
-        "Not Applicable"
-    ],
+    "Input Shape": "Single",
     "Output": [
         "Descriptor"
     ],
@@ -29,25 +26,28 @@
         "Fingerprint",
         "Descriptor"
     ],
-    "Publication": "https://pubs.acs.org/doi/10.1021/ci100050t",
+    "Biomedical Area": [
+        "Any"
+    ],
+    "Target Organism": [
+        "Not Applicable"
+    ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2010,
+    "Publication": "https://pubs.acs.org/doi/10.1021/ci100050t",
     "Source Code": "https://github.com/rdkit/rdkit",
     "License": "BSD-3.0",
     "Contributor": "miquelduranfrigola",
+    "Incorporation Date": "2021-09-09",
+    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5axz",
     "Docker Architecture": [
         "AMD64",
         "ARM64"
     ],
-    "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip",
-    "Deployment": [
-        "Local"
-    ],
     "Docker Pack Method": "FastAPI",
     "Model Size": 1.0,
     "Environment Size": 497.0,
-    "Incorporation Date": "2021-09-09",
     "Image Size": 414.78,
     "Computational Performance 1": 29.48,
     "Computational Performance 10": 19.17,

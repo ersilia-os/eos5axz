@@ -36,7 +36,7 @@
     "Publication Year": 2010,
     "Publication": "https://pubs.acs.org/doi/10.1021/ci100050t",
     "Source Code": "https://github.com/rdkit/rdkit",
-    "License": "BSD-3.0",
+    "License": "BSD-3.0-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-09-09",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip",

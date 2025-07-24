@@ -4,6 +4,7 @@ The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one o
 
 This model was incorporated on 2021-09-09.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos5axz`
@@ -13,7 +14,7 @@ This model was incorporated on 2021-09-09.
 - **Task:** `Representation`
 - **Subtask:** `Featurization`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Fingerprint`, `Descriptor`
 
 ### Input

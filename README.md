@@ -2,7 +2,7 @@
 
 The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one of the most widely used molecular representations. They are circular representations (from an atom, search the atoms around with a radius n) and can have thousands of features. This implementation uses the RDKit package and is done with radius 3 and 2048 dimensions.
 
-This model was incorporated on 2021-09-09.Last packaged on 2025-07-24.
+This model was incorporated on 2021-09-09.Last packaged on 2025-08-29.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 2048 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `514`
-- **Image Size (Mb):** `503.36`
+- **Image Size (Mb):** `503.34`
 
 **Computational Performance (seconds):**
-- 10 inputs: `26.16`
-- 100 inputs: `16.56`
-- 10000 inputs: `42.59`
+- 10 inputs: `26.88`
+- 100 inputs: `17`
+- 10000 inputs: `45.57`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit](https://github.com/rdkit/rdkit)

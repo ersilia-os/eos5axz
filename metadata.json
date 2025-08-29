@@ -38,7 +38,8 @@
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",
     "Incorporation Date": "2021-09-09",
-    "Last Packaging Date": "2025-07-24",
+    "Last Packaging Date": "2025-08-29",
+    "Release": "v1.0.0",
     "S3": "https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip",
     "DockerHub": "https://hub.docker.com/r/ersiliaos/eos5axz",
     "Docker Architecture": [
@@ -47,11 +48,11 @@
     ],
     "Model Size": 1.0,
     "Environment Size": 514.0,
-    "Image Size": 503.36,
-    "Computational Performance 1": 26.16,
-    "Computational Performance 2": 16.14,
-    "Computational Performance 3": 16.56,
-    "Computational Performance 4": 21.29,
-    "Computational Performance 5": 42.59,
+    "Image Size": 503.34,
+    "Computational Performance 1": 26.88,
+    "Computational Performance 2": 16.6,
+    "Computational Performance 3": 17.0,
+    "Computational Performance 4": 22.21,
+    "Computational Performance 5": 45.57,
     "Docker Pack Method": "FastAPI"
 }

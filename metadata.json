@@ -33,7 +33,7 @@
     ],
     "Publication Type": "Peer reviewed",
     "Publication Year": 2010,
-    "Publication": "https://pubs.acs.org/doi/10.1021/ci100050t",
+    "Publication": "https://doi.org/10.1021/ci100050t",
     "Source Code": "https://github.com/rdkit/rdkit",
     "License": "BSD-3-Clause",
     "Contributor": "miquelduranfrigola",

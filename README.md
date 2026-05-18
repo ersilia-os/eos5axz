@@ -59,7 +59,7 @@ _10 of 2048 columns are shown_
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit](https://github.com/rdkit/rdkit)
-- **Publication**: [https://pubs.acs.org/doi/10.1021/ci100050t](https://pubs.acs.org/doi/10.1021/ci100050t)
+- **Publication**: [https://doi.org/10.1021/ci100050t](https://doi.org/10.1021/ci100050t)
 - **Publication Type:** `Peer reviewed`
 - **Publication Year:** `2010`
 - **Ersilia Contributor:** [miquelduranfrigola](https://github.com/miquelduranfrigola)

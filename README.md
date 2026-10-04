@@ -1,6 +1,6 @@
 # Morgan counts fingerprints
 
-The Morgan Fingerprints, or extended connectivity fingerprints (ECFP4) are one of the most widely used molecular representations. They are circular representations (from an atom, search the atoms around with a radius n) and can have thousands of features. This implementation uses the RDKit package and is done with radius 3 and 2048 dimensions.
+Counts occurrences of each circular substructure within a radius of three bonds, producing a 2,048-dimensional integer vector. Retaining counts rather than collapsing to presence preserves information about repeated motifs, which matters for molecules containing several copies of the same group. The underlying algorithm is the extended-connectivity fingerprint of Rogers and Hahn, built by iteratively expanding atom environments and hashing them into a fixed-width vector, where collisions can map distinct substructures onto a shared index.
 
 This model was incorporated on 2021-09-09.Last packaged on 2026-08-31.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2021-09-09.Last packaged on 2026-08-31.
 ### Output
 - **Output Dimension:** `2048`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Vector representation of a molecule
+- **Interpretation:** 2048 counts of circular substructures within radius three, higher values indicating more occurrences.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |

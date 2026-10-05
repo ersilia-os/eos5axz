@@ -32,6 +32,7 @@ for smiles in smiles_list:
   mol = Chem.MolFromSmiles(smiles)
   if mol is None:
     outputs += [empty_output]
+    continue
   fp = morganfp(mol)
   fp = np.array(fp, dtype=int)
   outputs += [fp]

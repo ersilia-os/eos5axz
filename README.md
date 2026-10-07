@@ -1,6 +1,6 @@
 # Morgan counts fingerprints
 
-Counts occurrences of each circular substructure within a radius of three bonds, producing a 2,048-dimensional integer vector. Retaining counts rather than collapsing to presence preserves information about repeated motifs, which matters for molecules containing several copies of the same group. The underlying algorithm is the extended-connectivity fingerprint of Rogers and Hahn, built by iteratively expanding atom environments and hashing them into a fixed-width vector, where collisions can map distinct substructures onto a shared index.
+Counts occurrences of each circular substructure within a radius of three bonds with RDKit, producing a 2,048-dimensional integer vector in which any count above 254 is clipped. Retaining counts rather than collapsing to presence preserves information about repeated motifs, which matters when a group recurs several times. The underlying algorithm is the extended-connectivity fingerprint of Rogers and Hahn, built by iteratively expanding atom environments and hashing them into a fixed-width vector, where collisions can map distinct substructures onto a shared index.
 
 This model was incorporated on 2021-09-09.Last packaged on 2026-08-31.
 

@@ -2,7 +2,7 @@
 
 Counts occurrences of each circular substructure within a radius of three bonds with RDKit, producing a 2,048-dimensional integer vector in which any count above 254 is clipped. Retaining counts rather than collapsing to presence preserves information about repeated motifs, which matters when a group recurs several times. The underlying algorithm is the extended-connectivity fingerprint of Rogers and Hahn, built by iteratively expanding atom environments and hashing them into a fixed-width vector, where collisions can map distinct substructures onto a shared index.
 
-This model was incorporated on 2021-09-09.Last packaged on 2026-08-31.
+This model was incorporated on 2021-09-09.Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ _10 of 2048 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `1`
 - **Environment Size (Mb):** `504`
-- **Image Size (Mb):** `529.58`
+- **Image Size (Mb):** `523.17`
 
 **Computational Performance (seconds):**
-- 10 inputs: `27.68`
-- 100 inputs: `25.8`
-- 10000 inputs: `51.47`
+- 10 inputs: `26.78`
+- 100 inputs: `15.73`
+- 10000 inputs: `31.41`
 
 ### References
 - **Source Code**: [https://github.com/rdkit/rdkit](https://github.com/rdkit/rdkit)

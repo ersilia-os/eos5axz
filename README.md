@@ -2,7 +2,8 @@
 
 Counts occurrences of each circular substructure within a radius of three bonds with RDKit, producing a 2,048-dimensional integer vector in which any count above 254 is clipped. Retaining counts rather than collapsing to presence preserves information about repeated motifs, which matters when a group recurs several times. The underlying algorithm is the extended-connectivity fingerprint of Rogers and Hahn, built by iteratively expanding atom environments and hashing them into a fixed-width vector, where collisions can map distinct substructures onto a shared index.
 
-This model was incorporated on 2021-09-09.Last packaged on 2026-10-07.
+This model was incorporated on 2021-09-09.
+Last packaged on 2026-10-07.
 
 ## Information
 ### Identifiers
@@ -46,6 +47,7 @@ _10 of 2048 columns are shown_
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos5axz](https://hub.docker.com/r/ersiliaos/eos5axz)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos5axz.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos5axz_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos5axz_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1`
